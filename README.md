@@ -1,5 +1,4 @@
 # 7.6-Intro
-# Create the user input on line 3... user_input = input("Enter input string:\n")
 user_input = input("Enter input string:\n")
 while user_input != 'q':
     if user_input == 'q':
