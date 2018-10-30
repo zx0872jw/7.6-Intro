@@ -1,5 +1,9 @@
 # 7.6-Intro
-# Rewrite Line 16-19 above the elif
+# Create the user input on line 3... user_input = input("Enter input string:\n")
+
+while user_input != 'q':
+    if user_input == 'q':
+        break
     elif not ',' in user_input:
         print("Error: No comma in string.\n")
         user_input = input("Enter input string:\n")
@@ -13,7 +17,4 @@
         print("Second word:", user_input2[1])
         user_input = input("\nEnter input string:\n")
         
-user_input = input("Enter input string:\n")
-while user_input != 'q':
-    if user_input == 'q':
-        break
+
